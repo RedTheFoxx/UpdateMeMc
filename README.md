@@ -1,26 +1,44 @@
-# Minecraft Updater Tool
+# Update Me MC ! 🛠️
 
-Keep the world fresh and easy update it!
+🌍 _Keep your Minecraft worlds fresh and easily updated!_ 
 
-## Features
+## 🚀 Features
 
-- Automatically checks for the latest Minecraft version
-- One-click update process
-- Backup your worlds before updating
+✅ **Automatic Version Checks**  
+- Regularly scans for latest Minecraft releases
 
-## Quick Start
+⚡ **One-Click Updates**  
+- Single command deployment (`updater --deploy`)
 
-1. Download the updater tool
-2. Build a virtual environment (optional)
-3. Run `python app.py`
-4. Follow the on-screen prompts
-5. ???
-6. Profit
+💾 **Smart Backups**  
+- Automatic world preservation before changes
 
-## Requirements
+## 📥 Quick Start
 
-- Python 3.12+
+1. **Download Tool**  
+`git clone https://github.com/user/updatememc`
 
-## License
+2. **Setup Environment**  
+```powershell
+python -m venv .venv
+.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+```
 
-For private usage only. Commercial use is prohibited.
+3. **Launch Updater**  
+```powershell
+python app.py --interactive
+```
+
+4. **Follow Prompts**  
+🖥️ Interactive terminal guides you through process
+
+## ⚠️ Requirements
+
+- Python 3.12+ 🐍
+
+## 🔒 License
+
+**Private Use Only**
+
+> 📝 **Disclaimer**: Always maintain manual backups - tool not responsible for world corruption
